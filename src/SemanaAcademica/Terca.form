@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton3" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel4" min="-2" pref="606" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton3" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ter&#xe7;a-Feira"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="10" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Nesta palestra Roberto nos introduz &#xe0; fatos que muitas vezes s&#xe3;o ignorados durante o desenvolvimento ou reparo de algum software, ele tras a tona a forma comumente vista de identa&#xe7;&#xe3;o dos c&#xf3;digos mas que deve ser eliminada do cotidiano de um programador.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;A palestra se inicia com uma demonstra&#xe7;&#xe3;o do panorama atual, mostrando a forma comum de se pensar e trabalhar, baseado no principio de entrega de projetos no menor per&#xed;odo de tempo. Estes profissionais que trabalham desta forma muitas vezes passam por itens simples e b&#xe1;sicos para a cria&#xe7;&#xe3;o de um bom programa, at&#xe9; mesmo ignorando testes mais completos na aplica&#xe7;&#xe3;o.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Um fato importante &#xe9; que estes erros n&#xe3;o s&#xe3;o exclusividade de uma linguagem, estes erros s&#xe3;o comuns em todas as linguagens utilizadas atualmente, isto &#xe9; dado principalmente por m&#xe9;todos ultrapassados utilizados pelos profissionais, que ignoram praticas como a cultura DevOps, que tem como objetivo fornecer uma apresenta&#xe7;&#xe3;o limpa dos c&#xf3;digos para facilitar a localiza&#xe7;&#xe3;o de problemas e para agilizar no momento da necessidade de um update ou da corre&#xe7;&#xe3;o de algum bug.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Outra observa&#xe7;&#xe3;o de grande valor demonstrada na palestra foi a necessidade de cortar o costume de replica&#xe7;&#xe3;o de c&#xf3;digos, pois um bug no &#x201c;c&#xf3;digo pai&#x201d; ser&#xe1; passado para os demais c&#xf3;digos, assim podendo ampliar o alcance do problema acarretando em maiores dificuldades para a corre&#xe7;&#xe3;o destas falhas, que podem at&#xe9; mesmo impossibilitar a utiliza&#xe7;&#xe3;o da aplica&#xe7;&#xe3;o pelo usu&#xe1;rio. Este problema pode ser resolvido de uma maneira simples, mantendo os c&#xf3;digos limpos e realizando testes completos que eliminem a possibilidade de uma falha chegar ao produto final que ser&#xe1; utilizado pelo cliente. Nestes casos &#xe9; sempre importante inserir coment&#xe1;rios no c&#xf3;digo, assim mostrando o que cada etapa do processo faz ou deveria fazer, facilitando no momento de uma poss&#xed;vel corre&#xe7;&#xe3;o ou melhoria.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Uma das dicas mais valiosas apresentadas por Roberto &#xe9; a analise da situa&#xe7;&#xe3;o, isso evita que o programador simplesmente &#x201c;vomite&#x201d; os c&#xf3;digos, pois ele ir&#xe1; entender a necessidade desta aplica&#xe7;&#xe3;o e sua aplica&#xe7;&#xe3;o, assim fazendo com que o programador se direcione para um ponto especifico e se prepare para programar as fun&#xe7;&#xf5;es que a aplica&#xe7;&#xe3;o dever&#xe1; executar.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;A simplicidade no c&#xf3;digo tamb&#xe9;m foi muitas vezes abordada, especialmente em projetos com previs&#xe3;o de &#x201c;vida &#xfa;til&#x201d; longa e em projetos feitos com uma equipe. Esta simplicidade segue o principio de manter o c&#xf3;digo limpo, facilitando a interpreta&#xe7;&#xe3;o e trabalho com este c&#xf3;digo. Uma pr&#xe1;tica para manter esta simplifica&#xe7;&#xe3;o e clareza do c&#xf3;digo &#xe9; seguir os 3 pilares de orienta&#xe7;&#xe3;o &#xe0; objetos apresentados por Roberto: Encapsulamento, Heran&#xe7;a e Polimorfismo. Seguir estes pilares ir&#xe1; garantir uma melhor interpreta&#xe7;&#xe3;o do c&#xf3;digo, facilitando para quem ir&#xe1; trabalhar com ele.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p&gt;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Para concluirmos, Roberto nos apresenta a ideia do &#x201c;software como uma arte&#x201d; onde a ideia &#xe9; tratar o software com a delicadeza e a aten&#xe7;&#xe3;o que &#xe9; tratada uma obra de arte, sempre atento aos detalhes e sempre mantendo a clareza na visibilidade, novamente &#xe9; ressaltado a necessidade de praticarmos bons h&#xe1;bitos quando criarmos ou modificarmos algum c&#xf3;digo, sempre mantendo-o simples e com a maior clareza poss&#xed;vel, algo que deixe as fun&#xe7;&#xf5;es &#x201c;expostas&#x201d; e f&#xe1;cil de se trabalhar. Uma observa&#xe7;&#xe3;o final &#xe9; a maior dica entre todas, &#x201c;Leia o m&#xe1;ximo que puder&#x201d;, somente a leitura ir&#xe1; lhe agregar conhecimentos mais profundos, literaturas especificas podem apresentar novas fun&#xe7;&#xf5;es e novos m&#xe9;todos para se chegar ao resultado, muitas vezes de forma mais r&#xe1;pida e simples que a maneira convencional.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/p&gt;&#xa;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
